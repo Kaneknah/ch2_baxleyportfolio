@@ -8,7 +8,6 @@ body {
     width: 100%;
 }
 
-/* Do all sections need to be Flex in order to get layout right. */
 .header {
     padding: 5px;
     overflow: hidden;
@@ -80,7 +79,6 @@ h2 {
     width: auto;
 }
 
-/* this should be on the right and stretch the entierty of the webpage */
 #contact {
     display: block;
     height: 100%;
@@ -144,19 +142,12 @@ Main {
     opacity: .5;
 }
 
-/* This card needs to be larger than the others. */
 #maincard {
     border: solid black;
     flex: 1 0 60%;
     text-align: center;
     min-width: 300px;
 }
-
-/* Need to check
-
-Image overlaping the nav bar
-Flex box image shrink
-screen shrinking and adapting*/
 
 /* TODO
 GIVEN I need to sample a potential employee's previous work
