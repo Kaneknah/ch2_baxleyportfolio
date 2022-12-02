@@ -1,7 +1,8 @@
  * {
      box-sizing: border-box;
  }
-
+ 
+/* Flex box container for main body */
  body {
      display: flex;
      min-height: 100vh;
@@ -13,9 +14,11 @@
      flex: 1;
     
  }
+
  .nav li :hover {
     font-weight: bolder;
  }
+
  nav p {
     font-size: xx-large;
  }
@@ -36,32 +39,39 @@
      flex: 4;
 
  }
+
 #main-project {
     flex: 2;
     border: solid black;
     text-align: center;
     margin: 5px;
 }
+
 #link {
     max-width: 400px;
 }
-#other-project {
+
+.other-project {
     flex: 1;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     
 }
-@media screen and (max-width: 650) {
-    #other-project {
+
+/* Response aspects for smaller */
+@media only screen and (max-width: 650) {
+    .other-project {
         flex-direction: column;
     }
 }
+
 .projects-container img {
     max-width: 200px;
     margin: 5px;
    
 }
+
 .projects-container {
     flex: 1;
     border: solid black;
@@ -101,6 +111,16 @@ aside img {
     border: solid black;
  }
 
+ /* Hover Affects */
+ a:hover {
+     color: #da842e;
+ }
+
+.projects-container img:hover,
+article img:hover {
+   box-shadow: 5px 5px;
+   background-color: black;
+}
 
 
 
