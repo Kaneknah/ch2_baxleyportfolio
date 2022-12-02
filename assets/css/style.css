@@ -60,11 +60,11 @@
 }
 
 /* Response aspects for smaller */
-@media only screen and (max-width: 650) {
+/* @media only screen and (max-width: 650) {
     .other-project {
         flex-direction: column;
     }
-}
+} */
 
 .projects-container img {
     max-width: 200px;
